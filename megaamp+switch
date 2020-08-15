@@ -1,0 +1,68 @@
+Source,/home/reedwolf/Documents/megaamp+switch/megaamp+switch.sch
+Kicad Rev,Eeschema 4.0.2-stable
+Generated Date,Tue 29 Mar 2016 13:10:26 CEST
+
+Title,MultiAmp
+Company,Not Set
+Revision,0.5
+Date Issue,2016-03-27
+Comment,MegaAmp + Region mod PCB Implementation by reedwolf
+Comment,For ASIC and discrete YM3438
+Comment,Original MegaAmp schematics by Ace & Villahed94
+
+Reference,Value,Library,Library Ref
+U1,TL074,linear,TL074
+R16,330ohm,device,R
+R17,330ohm,device,R
+C13,220uF,device,CP1
+R9,51K,device,R
+R10,130K,device,R
+R11,130K,device,R
+R13,100K,device,R
+R6,51K,device,R
+R7,130K,device,R
+R8,130K,device,R
+R12,100K,device,R
+C7,1uF,device,CP1
+C8,1uF,device,CP1
+R5,1.3K,device,R
+C3,1uF,device,CP1
+C2,1uF,device,CP1
+C6,1uF,device,CP1
+C5,1uF,device,CP1
+C1,10uF,device,CP1
+C4,10uF,device,CP1
+R3,75ohm,device,R
+R4,75ohm,device,R
+R2,75ohm,device,R
+R1,75ohm,device,R
+R26,510ohm,device,R
+R27,750ohm,device,R
+C14,100uF,device,CP1
+C11,220uF,device,CP1
+C12,220uF,device,CP1
+R14,160Kohm,device,R
+R15,160Kohm,device,R
+C9,270pF,device,C
+C10,270pF,device,C
+left1,TEST_1P,conn,TEST_1P
+mono1,TEST_1P,conn,TEST_1P
+right1,TEST_1P,conn,TEST_1P
+YM_L1,Yamaha left channel,conn,TEST_1P
+MCD_L1,Mega CD Left Channel,conn,TEST_1P
+32X_L1,32X Left Channel,conn,TEST_1P
+PSG1,PSG,conn,TEST_1P
+MCD_R1,Mega CD Right Channel,conn,TEST_1P
+Gnd1,TEST_1P,conn,TEST_1P
++5v1,TEST_1P,conn,TEST_1P
+PIC1,16F630,pic16f6xx-1,16F630
+RES_I1,RESET IN,conn,TEST_1P
+RES_O1,RESET OUT,conn,TEST_1P
+VM_O1,50/60Hz,conn,TEST_1P
+LANG_O1,Japanese/English,conn,TEST_1P
+LEDG1,GREEN,conn,TEST_1P
+LEDR1,RED,conn,TEST_1P
+R18,220ohm,device,R
+LEDGND1,GND,conn,TEST_1P
+32X_R1,32X Right Channel,conn,TEST_1P
+YM_R1,Yamaha Right Channel,conn,TEST_1P
